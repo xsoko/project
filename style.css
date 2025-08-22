@@ -1,0 +1,117 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* Import de la police depuis Google Fonts */\
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');\
+\
+/* Variables de couleurs */\
+:root \{\
+  --ocre: #E6C79C;\
+  --olive: #7A8B6D;\
+  --vert-profond: #22543D;\
+  --beige: #F5F1E7;\
+  --gris-pierre: #A8A8A8;\
+\}\
+\
+/* Styles globaux */\
+body \{\
+  font-family: 'Cormorant Garamond', serif;\
+  background-color: var(--beige);\
+  color: var(--gris-pierre);\
+  margin: 0;\
+  padding: 0;\
+  line-height: 1.6;\
+\}\
+\
+/* HEADER */\
+header \{\
+  background-color: #ffffff;\
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);\
+  position: fixed;\
+  top: 0;\
+  left: 0;\
+  width: 100%;\
+  z-index: 50;\
+\}\
+\
+header img \{\
+  height: 60px;\
+  width: auto;\
+  transition: transform 0.2s ease-in-out;\
+\}\
+\
+header img:hover \{\
+  transform: scale(1.05);\
+\}\
+\
+/* TITRES */\
+h1, h2, h3, h4 \{\
+  font-family: 'Cormorant Garamond', serif;\
+  font-weight: 600;\
+  color: var(--vert-profond);\
+  margin-bottom: 0.5em;\
+\}\
+\
+h1 \{\
+  font-size: 3rem;\
+  text-align: center;\
+\}\
+\
+h2 \{\
+  font-size: 2rem;\
+  text-align: center;\
+\}\
+\
+/* PARAGRAPHES */\
+p \{\
+  font-size: 1.2rem;\
+  color: var(--gris-pierre);\
+  margin-bottom: 1.2em;\
+  text-align: center;\
+\}\
+\
+/* LIENS */\
+a \{\
+  color: var(--vert-profond);\
+  text-decoration: none;\
+  transition: color 0.2s ease-in-out;\
+\}\
+\
+a:hover \{\
+  color: var(--olive);\
+\}\
+\
+/* BOUTONS */\
+.btn \{\
+  display: inline-block;\
+  padding: 0.6em 1.2em;\
+  border-radius: 6px;\
+  font-weight: 500;\
+  background-color: var(--vert-profond);\
+  color: white;\
+  transition: background 0.3s ease-in-out;\
+\}\
+\
+.btn:hover \{\
+  background-color: var(--olive);\
+\}\
+\
+/* SECTIONS */\
+section \{\
+  background-color: #ffffff;\
+  margin: 2rem auto;\
+  padding: 3rem 2rem;\
+  border-radius: 10px;\
+  max-width: 900px;\
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);\
+\}\
+\
+/* ESPACEMENT POUR LE CONTENU SOUS LE HEADER FIXE */\
+main \{\
+  padding-top: 100px;\
+\}\
+}
